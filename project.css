@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body{
+    font-family: "Itim", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #deeffc ;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+nav{
+    background: #bce2ff;
+    width: 100%;
+    position: absolute;
+    /* border: 1px solid red; */
+}
+
+.container{
+    width: 95%;
+    height: 4rem;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    text-shadow: 0.2rem 0.3rem 0.5rem white;
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+
+ul li{
+    list-style: none;
+    margin: 0 1rem;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.banner{
+    position: relative;
+    height: 44rem;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner button{
+    padding: 1rem 1rem;
+    width: 10rem;
+    background-color: #fea23b ;
+    box-shadow: 0.3rem 0.2rem 0.1rem #e28822;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.4rem;
+    transition: 0.3s ease-in-out;
+}
+
+.banner button:hover{
+    transform: scale(1.1);
+    box-shadow: 0.4rem 0.5rem 0.5rem #e28822;
+}
+
+.banner h1,h2{
+    margin-top: 1rem;
+}
+
+.blog{
+    width: 95%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.blog-con:hover{
+    box-shadow: 0.3rem 0.5rem 0.9rem #ffd4a4;
+}
+
+.blog-con:hover img:hover{
+    transform: scale(1.01);
+    box-shadow: 0.3rem 0.2rem 0.9rem #ffd4a4;
+}
+
+.blog-con{
+    background-color: #ffd4a4;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.blog-con p{
+    font-size: 1.2rem;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.blog img{
+    width: 100%;    
+    border-radius: 2rem;
+    transition: 0.5s ease-in-out;
+     /* border: 1px solid black; */
+}
+
+
+aside p{
+    font-weight: bold;
+}
+
+main{
+    width: 85%;
+    /* margin-top: 2rem; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.banner h1,h2{
+    font-size: 4.5rem;
+    margin: 1rem 0;
+    color: white;
+    text-shadow: 0.3rem 0.2rem 0.4rem #ffd4a4;
+
+}
+.banner-con{
+    background-image: url('image/CHH.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+footer{
+    background-color: rgb(3, 3, 3);
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Satisfy", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer-con{
+    color: rgb(255, 255, 255);
+    width: 80%;
+    height: 16rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid rgb(0, 254 , 13); */
+}
+.footer1{
+    /* border: 1px solid rgb(254, 0, 0); */
+    height: 20rem;
+    width: 100%;
+
+}
+.footer1 img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 5rem;
+}
+.footer1 p{
+    /* border: 1px solid rgb(254, 0, 0); */
+    margin-top: 1rem;
+}
+.footer2{
+    /* border: 1px solid rgb(254, 0, 0); */
+    height: 20rem;
+    width: 60%;
+    margin: 0 auto;
+}
+.footer2 p{
+    /* border: 1px solid rgb(254, 0, 0); */
+    margin-top: 1rem;
+}
+.footer2 i{
+
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    width: 15%;
+}
+.footer3{
+
+    height: 20rem;
+    width: 100%;
+}   
+.footer3 p{
+
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 85%;
+
+}
+.footer3 h1{
+
+    margin-top: 1rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.footer3 i{
+    width: 100%;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer3 i:hover{
+    width: 100%;
+    border: 6px solid rgba(104, 104, 104, 0.883);
+    border-radius: 100px;
+    background-color: rgba(126, 126, 126, 0.883);
+}
+
+#loading-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    z-index: 9999;
+    animation: fadeOut 2s forwards 3s;
+}
+
+
+#content {
+    opacity: 0;
+    animation: fadeIn 2s forwards 3s;
+}
+
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; visibility: hidden; }
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+.spinner {
+    width: 10rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('image/logo.png');
+    border-radius: 50%;
+    animation: spin 1s linear infinite alternate;
+}
+
+@keyframes spin {
+    0%{
+        transform: scale(1);
+    }
+    50%{ 
+        box-shadow: 0.3rem 0.5rem 0.9rem white;
+    }
+    100% {
+        transform: scale(1.3);
+     }
+}
